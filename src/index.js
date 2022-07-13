@@ -31,7 +31,7 @@ const populateScreen = () => {
       event.target.style.backgroundColor = '#fff4bf';
       event.target.parentElement.style.backgroundColor = '#fff4bf';
       event.target.nextSibling.classList.add('hideellipsis');
-      event.target.lastChild.remove('hideellipsis');
+      event.target.nextSibliing.nextSibling.remove('hideellipsis');
     });
   });
 
